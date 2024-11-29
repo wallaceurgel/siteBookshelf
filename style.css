@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  text-align: center;
+  margin: 0;
+}
+h1 {
+  margin: 1rem;
+  font-size: 60px;
+  font-weight: 500;
+}
+p {
+  margin: 1rem;
+  font-size: 16px;
+}
+h2 {
+  margin: 1rem;
+  font-weight: 400;
+}
+.conteudo {
+  text-align: center;
+}
+img {
+  max-width: 50%;
+  height: auto;
+ display: block;
+  margin: 3rem auto;
+}
+.botoes {
+  margin: 2.6rem 1.6rem;
+}
+main .botoes .botoes1 {
+  margin-left: 20px;
+  background-color: #66adff;
+  color: #ffffff;
+}
+main .botoes .botao2 {
+  margin-left: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  display: inline-block;
+}
+button {
+  font-size: 17px;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.inscrevaSe {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 20px 0;
+}
+button:hover {
+  background-color: hsl(212, 100%, 90%);
+  transform: scale(105%);
+  transition: 0.2s;
+}
+.botoes button:hover {
+  background-color: hsl(212, 100%, 90%);
+  transform: scale(105%);
+  transition: 0.2s;
+}
+@media only screen and (max-width: 898px) {
+  .botoes button {
+    display: inline-block;
+    margin-top: 20px;
+  }
+}
+@media only screen and(max-width:550px) {
+  .botoes button {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 6px 18px;
+  }
+}
+footer {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
